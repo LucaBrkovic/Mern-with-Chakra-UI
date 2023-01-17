@@ -1,1 +1,1 @@
-# Mern-with-Chakra-UI
+# MERN-with-Chakra-UI
