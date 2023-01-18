@@ -1,8 +1,11 @@
 import { Center, Wrap, WrapItem } from '@chakra-ui/react'
-import {products} from "../products"
-import React from 'react'
+import React, {useEffect} from 'react'
 import ProductCard from '../components/ProductCard'
+import products from "../products"
 const ProductsScreen = () => {
+
+
+
   return (
   <Wrap spacing="30px" justify="center" minHeight="100vh">
     {
