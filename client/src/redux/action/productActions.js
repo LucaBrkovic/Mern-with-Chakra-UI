@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { setProducts, setLoading, setError } from '../slices/products'
 
-export const getProducts = () => async (dispatch) => {
+export  const getProducts = () => async (dispatch) => {
   dispatch(setLoading(true))
   try {
     const { data } = await axios.get('/api/products') // proxy is in package.json added
